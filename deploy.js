@@ -3,8 +3,8 @@ const Web3 = require('web3');
 const { interface, bytecode } = require('./compile');
 
 const provider = new HDWalletProvider(
-    'tooth couple tilt input robust few river success digital purity dust science',
-    'https://rinkeby.infura.io/v3/7792da4806024391943507c80249cce9'
+    '',
+    'https://rinkeby.infura.io/v3/'
 );
 const web3 = new Web3(provider);
 
